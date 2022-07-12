@@ -1,0 +1,243 @@
+* {
+    margin: 0%;
+  }
+  
+  .header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 30px 30px;
+    background-color: #BBD8DC;
+  }
+  
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: #451d59;
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+    font-size: 35px;
+    line-height: 200px;
+  }
+  
+  .header .logo {
+    height: 250px;
+    width: 500px;
+  }
+  
+  .header a:hover {
+    color:#451d59;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  /* Float the link section to the right */
+  .header-right {
+    float: right;
+  }
+  
+  .homeSection {
+    height: 72vh;
+    margin: auto;
+    align-items: center;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 75% auto;
+    padding: 0% 10% 0% 10%;
+    background-color: #BBD8DC;
+  }
+  
+  .intro p {
+    color: #451d59;
+    font-size: 40px;
+  }
+  
+  .homeSection img {
+    height: 650px;
+  }
+  
+  .homeSection button {
+    margin-top: 5%;
+    border: none;
+    color: white;
+    padding: 1% 4%;
+    border-radius: 8px;
+    font-size: x-large;
+  }
+  
+  .login{
+    background-color: #451d59;
+  }
+  
+  .signup{
+    background-color: #e7c7cc;
+  }
+  
+  /* about section */
+  
+  h3 {
+    font-size: 3rem;
+    text-decoration: underline;
+    color: #451d59;
+  }
+  
+  .about {
+    padding: 4% 10% 4% 10%;
+    background-color: #EBD0B3;
+  }
+  
+  .about .contant {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 30px;
+    margin-top: 5%;
+    color: #451d59;
+  }
+  
+  .about p {
+    font-size: 40px;
+    margin-top: 6%;
+    margin-left: 0%;
+  }
+  
+  .about img {
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .about .img1{
+    grid-column: 1;
+  }
+  
+  .about .txt1{
+    grid-column: 2/ span 3;
+  }
+  
+  .about .txt2{
+    grid-row: 2;
+    grid-column: 1/ span 2;
+  }
+  
+  .about .img2{
+    grid-row: 2;
+    grid-column: 3;
+  }
+  
+  /* offer section */
+  
+  section h3 {
+    font-size: 3rem;
+    text-decoration: underline;
+    color: #451d59;
+  }
+  section h2 {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #451d59;
+    line-height: 65px;
+  }
+  .offers {
+    display: block;
+    padding: 5% 10% 5% 10%;
+    align-items: center;
+    background-color: #E7C7CC;
+    text-align: center;
+    height: 750px;
+    color: #451d59;
+    text-decoration: none;
+  }
+  
+  .offers img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 60px;
+    align-items: center;
+  }
+  
+  /* menu section */
+  .menu {
+    display: grid;
+    grid-template-columns: auto auto;
+    line-height: 60px;
+  }
+  
+  .menu .leftMenu {
+    background-color: #bbd8dc;
+    padding: 5%;
+    display: block;
+    align-items: center;
+    text-align: center;
+    font-size: xx-large;
+    color: #451d59;
+  }
+  
+  .menu .rightMenu {
+    background-color: #EBD0B3;
+    text-align: center;
+    display: block;
+    padding: 5%;
+    align-items: center;
+    font-size: xx-large;
+    color: #451d59;
+  }
+  
+  .menu .rightMenuDown {
+    text-align: center;
+    padding: 1%;
+    position: relative;
+  }
+  
+  /* contact section */
+  
+  section div h3 {
+    font-size: 3rem;
+    text-decoration: underline;
+    color: #451d59;
+  }
+  .detail p {
+    font-size: 2rem;
+    color: #451d59;
+    line-height: 50px;
+  }
+  .contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5% 10%;
+    align-items: center;
+    height: 650px;
+    background-color: #E7C7CC;
+  }
+  
+  .map{
+    margin-bottom: 2%;
+  }
+  
+  .mapSection p{
+    font-size: 2rem;
+    color: #451d59;
+    text-align: center;
+  }
+  
+  /* footer */
+  footer {
+    background-color: #E9E2E2;
+    color: #451d59;
+    max-width: 100%;
+    padding: 2% 10%;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  .footer a {
+    float: none;
+    color: #451d59;
+    text-align: center;
+    padding: 45px;
+    text-decoration: none;
+    font-size: 35px;
+    line-height: 150px;
+  }
+  
